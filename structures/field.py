@@ -1,7 +1,5 @@
-from element import Element
-
-# Example of a ring class:
-class Ring:
+# Example of a field class:
+class Field:
     def __init__(self, elements, addition, multiplication):
         self.elements = elements
         self.addition = addition
@@ -19,16 +17,5 @@ class Ring:
     def identity(self):
         return None
 
-# Example of a ring operations:
-def integer_addition(a, b):
-    return a + b
-
-def integer_multiplication(a, b):
-    return a * b
-
-# Example usage:
-elements = [Element(i) for i in range(5)]
-ring = Ring(elements, integer_addition, integer_multiplication)
-
-print(ring.add(2, 3))
-print(ring.multiply(2, 3))
+    def inverse(self):
+        return None
