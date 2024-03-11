@@ -4,7 +4,7 @@ class Group:
         self.elements = elements
         self.operation = operation
 
-    def operate(self, a, b):
+    def apply(self, a, b):
         return self.operation(a, b)
 
     def identity(self):

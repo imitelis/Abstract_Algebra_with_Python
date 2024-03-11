@@ -6,5 +6,5 @@ class Module(Ring):
         super().__init__(elements, addition, multiplication)
         self.product = product
 
-    def product(self, a):
-        return self.product(a)
+    def product(self, r, a):
+        return self.product(r, a)

@@ -10,4 +10,4 @@ def addition_mod_n(n):
 elements = [Element(i) for i in range(5)]
 group = Group(elements, addition_mod_n(2))
 
-print(group.operate(2, 3))
+print(group.apply(2, 3))
